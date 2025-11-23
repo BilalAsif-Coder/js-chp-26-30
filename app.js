@@ -69,7 +69,9 @@ console.log(`Number 1 to 100 : ${Math.ceil(Math.random() * 100)}`)
 //Q no 7 
 //A no 7 
 
-
+let userWeight = prompt("Enter Your Weight")
+let user = parseFloat(userWeight)
+console.log(`The user weight is ${userWeight} kilogram`)
 
 
 
@@ -87,7 +89,4 @@ if (userNumberGame == guessNumber){
     console.log("Try again")
 }
 
-
-
-
-
+////////
